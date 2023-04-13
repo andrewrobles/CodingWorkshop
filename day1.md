@@ -1,8 +1,6 @@
 # Day 1
 ## Code a To-do List App
 
----
-
 # Introduction
 
 This workshop will walk you through building a to-do list app that does the following:
