@@ -14,8 +14,6 @@ This workshop will walk you through building a to-do list app that does the foll
 
 # Step 1 - Set Up Your Computer for Building Apps
 
-### If you are using Mac or Windows:
-
 Download and install the following:
 
 - **Git** - [git-scm.com/downloads](https://git-scm.com/downloads)
@@ -23,12 +21,7 @@ Download and install the following:
 
 ### ONLY if you are using Windows:
 
-- Install **Python** - [python.org](https://www.python.org/)
-- Make sure you check the boxes where it says:
-  - [x] Use admin privileges when installing py.exe
-  - [x] Add python.exe to PATH
-
-![python](./python.png)
+- Install **Python** from the Windows store
 
 ---
 
