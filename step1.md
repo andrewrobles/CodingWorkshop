@@ -1,3 +1,12 @@
+### Introduction
+
+This workshop will walk you through building a to-do list app that does the following:
+
+- Creates a to-do item
+- Edits to-do item text
+- Marks a to-do item as completed
+- Deletes a to-do item
+
 | [Step 0 - Set Up Your Computer for Building Apps](../step0/step0.md) | [Step 1 - Run Your App for the First Time](../step1/step1.md) |
 | - | - |
 
