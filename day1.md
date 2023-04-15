@@ -54,31 +54,23 @@ Congratulations, you're officially an app developer ;)
 
 #### Step 2 - Create An Account and Log In
 
-##### PROVIDE A USERNAME AND PASSWORD
+##### INITATE ACCOUNT CREATION PROCESS
 
-Run the following command to create an account
 ```bash
 python manage.py createsuperuser
 ```
 
-Enter a username and press Enter
+##### PROVIDE ACCOUNT CREDENTIALS
+
 ```
 Username: andrew
-```
-
-You will then be prompted for your desired email address
-```
 Email address: me@andrewrobles.com
-```
-
-The final step is to enter your password. You will be asked to enter your password twice, the second time as a confirmation of the first.
-```
 Password: **********
 Password (again): *********
 Superuser created successfully.
 ```
 
-##### USE THE WEBSITE TO LOGIN
+##### UTILIZE WEBSITE TO LOGIN
 
 With the server running, open `http://127.0.0.1:8000/admin` and login using the username and password you entered in the previous step.
 
@@ -182,4 +174,4 @@ class TodoItem(models.Model):
 
 If you go back to your list of to-do items, you should see your item crossed out because it was marked as done.
 
-![strike](png/day1/4b.png)
+![NOT FOUND](png/day1/4b.png)
