@@ -76,7 +76,7 @@ With the server running, open `http://127.0.0.1:8000/admin` and login using the 
 
 #### Step 3 - Store Information In App Database
 
-Let's open the `MyApp/models.py` file in the code editor, remove everything from it, and write code like this:
+##### COPY TO `models.py`
 
 ```python
 from django.db import models
@@ -86,14 +86,13 @@ class ToDoItem(models.Model):
     done = models.BooleanField(default=False)
 ```
 
-In a separate terminal window from where you ran the `python manage.py runserver` command, run the following commands to start a virtual environment then tell your app that you've made changes to what your database should look like:
+##### RUN IN TERMINAL
 
 ```bash
-source VirtualEnvironment/bin/activate
 python manage.py makemigrations
 ```
 
-You should see something like this:
+##### OBSERVE THE RESULT
 
 ```
 Migrations for 'todo':
@@ -101,13 +100,13 @@ Migrations for 'todo':
     - Create model TodoItem
 ```
 
-Now, run the following command to make those changes in the database:
+##### RUN IN TERMINAL
 
 ```bash
 python manage.py migrate
 ```
 
-You should see something similar to the following:
+##### OBSERVE THE RESULT
 
 ```
 Operations to perform:
@@ -117,9 +116,8 @@ Running migrations:
   Applying todo.0001_initial... OK
 ```
 
-##### USING THE APP
+##### COPY TO `admin.py`
 
-Add the following code to `MyApp/admin.py`
 ```python
 from django.contrib import admin
 
@@ -127,12 +125,12 @@ from .models import TodoItem
 
 admin.site.register(TodoItem)
 ```
-- Use the app to create a few to-do items! Examples of some good ones are "Cook some delicious food", and "Eat some delicious food"
-- You should now see the following:
+##### USE APP TO CREATE SOME TO-DO ITEMS THEN OBSERVE THE RESULT 
 
 ![added](png/day1/3a.png)
 
-Wait a minute. `<TodoItem: TodoItem object (1)>` isn’t a helpful representation of this object. Let’s fix that by editing the `TodoItem` model (in the `MyApp/models.py` file) and adding a `__str__()` method to `TodoItem`:
+##### CONVERT TO-DO ITEM TEXT TO SOMETHING MORE READABLE BY ADDING A `__str__` FUNCTION TO `models.py`
+
 
 ```python
 from django.db import models
@@ -143,9 +141,7 @@ class TodoItem(models.Model):
         return self.text
 ```
 
-It’s important to add `__str__()` methods to your models for your own convenience so it's easier to tell what object you're looking at.
-
-You should see your to-do item change from `<TodoItem: TodoItem object (1)>` to `Go to the gym` in your list of to-do items:
+##### OBSERVE THE RESULT
 
 ![NOT FOUND](png/day1/3b.png)
 
