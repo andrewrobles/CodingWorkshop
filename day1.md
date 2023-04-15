@@ -7,8 +7,7 @@ INTRODUCTION - This workshop will walk you through building a to-do list app tha
 - Marks a to-do item as completed
 - Deletes a to-do item
 
-# STEP 1 - SET UP YOUR COMPUTER FOR BUILDING APPS
-Download and install the following:
+STEP 1 - SET UP YOUR COMPUTER FOR BUILDING APPS - Download and install the following:
 
 - **Git** - [git-scm.com/downloads](https://git-scm.com/downloads)
 - **Visual Studio Code** - [code.visualstudio.com](https://code.visualstudio.com)
