@@ -1,13 +1,17 @@
 # DAY 1 - LOG INTO THE DATABASE
 
-INTRODUCTION - This workshop will walk you through building a to-do list app that does the following:
+## Introduction
+
+This workshop will walk you through building a to-do list app that does the following:
 
 - Creates a to-do item
 - Edits to-do item text
 - Marks a to-do item as completed
 - Deletes a to-do item
 
-STEP 1 - SET UP YOUR COMPUTER FOR BUILDING APPS - Download and install the following:
+# Step 1 - Set Up Your Computer for Building Apps
+
+Download and install the following:
 
 - **Git** - [git-scm.com/downloads](https://git-scm.com/downloads)
 - **Visual Studio Code** - [code.visualstudio.com](https://code.visualstudio.com)
