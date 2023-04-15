@@ -67,7 +67,7 @@ python manage.py runserver
 ```
 - Open the URL in a browser window provided in the terminal output - http://127.0.0.1:8000
 - You should see the following:
-  ![install-worked](png/day1/install-worked.png)
+  ![NOT FOUND](png/day1/1a.png)
 
 Congratulations, you're officially an app developer ;)
 
@@ -153,7 +153,7 @@ admin.site.register(TodoItem)
 - Use the app to create a few to-do items! Examples of some good ones are "Cook some delicious food", and "Eat some delicious food"
 - You should now see the following:
 
-![added](png/day1/added.png)
+![added](png/day1/3a.png)
 
 Wait a minute. `<TodoItem: TodoItem object (1)>` isn’t a helpful representation of this object. Let’s fix that by editing the `TodoItem` model (in the `MyApp/models.py` file) and adding a `__str__()` method to `TodoItem`:
 
@@ -170,13 +170,13 @@ It’s important to add `__str__()` methods to your models for your own convenie
 
 You should see your to-do item change from `<TodoItem: TodoItem object (1)>` to `Go to the gym` in your list of to-do items:
 
-![added2](png/day1/added2.png)
+![NOT FOUND](png/day1/3b.png)
 
 # Step 4 - Customize How Text is Displayed
 
 Using the app, edit the to-do item and click on the checkbox to mark it as done.
 
-![done](png/day1/done.png)
+![NOT FOUND](png/day1/4a.png)
 
 Now, we are going to write some code so that any items marked as done are crossed out. Let’s update the contents of `MyApp/models.py` to:
 
@@ -197,10 +197,4 @@ class TodoItem(models.Model):
 
 If you go back to your list of to-do items, you should see your item crossed out because it was marked as done.
 
-![strike](png/day1/strike.png)
-
----
-
-# Conceptual Overview
-
-
+![strike](png/day1/4b.png)
