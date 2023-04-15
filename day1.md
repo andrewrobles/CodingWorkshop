@@ -1,5 +1,4 @@
-# DAY 1
-# LOG INTO THE DATABASE
+# DAY 1 - LOG INTO THE DATABASE
 
 ## Introduction
 
@@ -10,8 +9,7 @@ This workshop will walk you through building a to-do list app that does the foll
 - Marks a to-do item as completed
 - Deletes a to-do item
 
-# Step 1 - Set Up Your Computer for Building Apps
-
+# STEP 1 - SET UP YOUR COMPUTER FOR BUILDING APPS
 Download and install the following:
 
 - **Git** - [git-scm.com/downloads](https://git-scm.com/downloads)
