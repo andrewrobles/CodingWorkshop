@@ -1,27 +1,22 @@
 # DAY 1 - LOG INTO THE DATABASE
 
-# Step 1 - Set Up Your Computer for Building Apps
+### STEP 1 - SET UP YOUR COMPUTER FOR BUILDING APPS
 
-Download and install the following:
+##### DOWNLOAD THE REQUIRED SOFTWARE
 
-- **Git** - [git-scm.com/downloads](https://git-scm.com/downloads)
-- **Visual Studio Code** - [code.visualstudio.com](https://code.visualstudio.com)
+- Git - [git-scm.com/downloads](https://git-scm.com/downloads)
+- Visual Studio Code - [code.visualstudio.com](https://code.visualstudio.com)
 
-### ONLY if you are using Windows:
+- ONLY if you are using Windows: Install Python from the Windows store
 
-- Install **Python** from the Windows store
+##### ENABLE AUTO-SAVE
 
----
-
-### Enable Auto Save
-
-In order to prevent you from having to manually save the files every time you make a change, let's enable Auto Save so your changes will be saved automagically.
+In order to prevent you from having to manually save the files every time you make a change, let's enable *Auto-Save* so your changes will be saved automagically.
 
 - Open Visual Studio Code
 - Enable auto save by going to `File > Auto Save`
 
-
-# Run Your App for the First Time 
+##### RUN YOUR APP FOR THE FIRST TIME
 
 In a terminal window, run the following commands to download the project to your `Desktop` folder:
 
@@ -31,20 +26,16 @@ In a terminal window, run the following commands to download the project to your
   ```
 
 - Open up the project in Visual Studio Code by going to `File > Open` and navigating to `~/Desktop/MyApp`
-- Open up a terminal window by going to `View > Terminal`
+- Open up a terminal window by going to `Terminal > New Terminal`
 - Depending on if you're using Mac or Windows, run the following command under the section of whichever type of computer you're using:
----
-
-### If you are using a Mac:
+- If you are using a Mac:
 ```bash
 python3 -m venv VirtualEnvironment 
 ```
-
-### If you are using Windows:
+-  If you are using Windows:
 ```bash
 python -m venv VirtualEnvironment 
 ```
----
 - Run the following commands:
 ```bash
 source VirtualEnvironment/bin/activate
@@ -61,7 +52,9 @@ python manage.py runserver
 
 Congratulations, you're officially an app developer ;)
 
-# Step 2 - Create An Account and Log In
+---
+
+##### Step 2 - Create An Account and Log In
 
 Run the following command to create an account
 ```bash
