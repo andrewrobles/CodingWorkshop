@@ -1,7 +1,7 @@
-# Day 1
-## Code a To-do List App
+# DAY 1
+# LOG INTO THE DATABASE
 
-# Introduction
+## Introduction
 
 This workshop will walk you through building a to-do list app that does the following:
 
