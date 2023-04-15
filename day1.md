@@ -1,4 +1,4 @@
-####  DAY 1 - LOG IN TO THE DATABASE
+#  DAY 1 - LOG IN TO THE DATABASE
 
 #### Step 1 - Set Up Your Computer for Building Apps
 
