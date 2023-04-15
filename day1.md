@@ -1,22 +1,22 @@
-# DAY 1 - LOG INTO THE DATABASE
+####  DAY 1 - LOG IN TO THE DATABASE
 
-##### Step 1 - Set Up Your Computer for Building Apps
+#### Step 1 - Set Up Your Computer for Building Apps
 
-==Download the Required Software==
+##### DOWNLOAD THE REQUIRED SOFTWARE
 
 - Git - [git-scm.com/downloads](https://git-scm.com/downloads)
 - Visual Studio Code - [code.visualstudio.com](https://code.visualstudio.com)
 
 - ONLY if you are using Windows: Install Python from the Windows store
 
-==Enable Auto-Save==
+##### ENABLE AUTO-SAVE
 
 In order to prevent you from having to manually save the files every time you make a change, let's enable *Auto-Save* so your changes will be saved automagically.
 
 - Open Visual Studio Code
 - Enable auto save by going to `File > Auto Save`
 
-==Run Your App for the First Time==
+##### RUN YOUR APP FOR THE FIRST TIME
 
 In a terminal window, run the following commands to download the project to your `Desktop` folder:
 
@@ -52,9 +52,9 @@ python manage.py runserver
 
 Congratulations, you're officially an app developer ;)
 
----
-
 ##### Step 2 - Create An Account and Log In
+
+PROVIDE A USERNAME AND PASSWORD
 
 Run the following command to create an account
 ```bash
@@ -77,6 +77,8 @@ Password: **********
 Password (again): *********
 Superuser created successfully.
 ```
+
+USE THE WEBSITE TO LOGIN
 
 With the server running, open `http://127.0.0.1:8000/admin` and login using the username and password you entered in the previous step.
 
