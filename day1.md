@@ -1,8 +1,6 @@
 # DAY 1 - LOG INTO THE DATABASE
 
-## Introduction
-
-This workshop will walk you through building a to-do list app that does the following:
+INTRODUCTION - This workshop will walk you through building a to-do list app that does the following:
 
 - Creates a to-do item
 - Edits to-do item text
