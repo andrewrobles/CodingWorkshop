@@ -1,22 +1,22 @@
 # DAY 1 - LOG INTO THE DATABASE
 
-#### STEP 1 - SET UP YOUR COMPUTER FOR BUILDING APPS
+##### Step 1 - Set Up Your Computer for Building Apps
 
-##### DOWNLOAD THE REQUIRED SOFTWARE
+==Download the Required Software==
 
 - Git - [git-scm.com/downloads](https://git-scm.com/downloads)
 - Visual Studio Code - [code.visualstudio.com](https://code.visualstudio.com)
 
 - ONLY if you are using Windows: Install Python from the Windows store
 
-##### ENABLE AUTO-SAVE
+==Enable Auto-Save==
 
 In order to prevent you from having to manually save the files every time you make a change, let's enable *Auto-Save* so your changes will be saved automagically.
 
 - Open Visual Studio Code
 - Enable auto save by going to `File > Auto Save`
 
-##### RUN YOUR APP FOR THE FIRST TIME
+==Run Your App for the First Time==
 
 In a terminal window, run the following commands to download the project to your `Desktop` folder:
 
