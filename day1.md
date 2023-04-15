@@ -1,14 +1,5 @@
 # DAY 1 - LOG INTO THE DATABASE
 
-## Introduction
-
-This workshop will walk you through building a to-do list app that does the following:
-
-- Creates a to-do item
-- Edits to-do item text
-- Marks a to-do item as completed
-- Deletes a to-do item
-
 # Step 1 - Set Up Your Computer for Building Apps
 
 Download and install the following:
