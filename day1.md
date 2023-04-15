@@ -52,9 +52,9 @@ python manage.py runserver
 
 Congratulations, you're officially an app developer ;)
 
-##### Step 2 - Create An Account and Log In
+#### Step 2 - Create An Account and Log In
 
-PROVIDE A USERNAME AND PASSWORD
+##### PROVIDE A USERNAME AND PASSWORD
 
 Run the following command to create an account
 ```bash
@@ -78,11 +78,11 @@ Password (again): *********
 Superuser created successfully.
 ```
 
-USE THE WEBSITE TO LOGIN
+##### USE THE WEBSITE TO LOGIN
 
 With the server running, open `http://127.0.0.1:8000/admin` and login using the username and password you entered in the previous step.
 
-# Step 3 - Store Information In App Database
+#### Step 3 - Store Information In App Database
 
 Let's open the `MyApp/models.py` file in the code editor, remove everything from it, and write code like this:
 
@@ -125,7 +125,7 @@ Running migrations:
   Applying todo.0001_initial... OK
 ```
 
-### Using the app
+##### USING THE APP
 
 Add the following code to `MyApp/admin.py`
 ```python
@@ -157,7 +157,7 @@ You should see your to-do item change from `<TodoItem: TodoItem object (1)>` to 
 
 ![NOT FOUND](png/day1/3b.png)
 
-# Step 4 - Customize How Text is Displayed
+#### Step 4 - Customize How Text is Displayed
 
 Using the app, edit the to-do item and click on the checkbox to mark it as done.
 
