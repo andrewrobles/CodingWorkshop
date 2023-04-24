@@ -10,7 +10,7 @@ Rendering a webpage is the process of turning code into an interactive page that
 
 ![Screenshot 2023-04-23 at 8.46.13 PM](png/day2/Screenshot_2023-04-23_at_8.46.13_PM.png)
 
-```html
+```
 {% for todo in todo_list %}
     {% if todo.done %} 
         <input type="checkbox" checked> 
