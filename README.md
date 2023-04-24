@@ -1,3 +1,4 @@
 # CodingWorkshop
 
-Day 1 - [Create a Database](day1.md)
+#### Table of Contents
+[Day 1 - Create a Database](day1.md)
