@@ -1,3 +1,3 @@
 # CodingWorkshop
 
-DAY 1 - [LOG INTO THE DATABASE](day1.md)
+Day 1 - [Create a Database](day1.md)
