@@ -4,25 +4,13 @@
 
 Rendering a webpage is the process of turning code into an interactive page that website visitors expect to see when clicking on a link.
 
-1. Create a new directory inside the `MyApp` directory called `templates` 
-2. Inside of `templates`, create a new directory called `MyApp`
-3. Inside of this new `MyApp` directory, create a file called `index.html` containing the following code:
+- Create a new directory inside the `MyApp` directory called `templates` 
+- Inside of `templates`, create a new directory called `MyApp`
+- Inside of this new `MyApp` directory, create a file called `index.html` containing the following code:
 
 ![Screenshot 2023-04-23 at 8.46.13 PM](png/day2/Screenshot_2023-04-23_at_8.46.13_PM.png)
 
-```
-{% for todo in todo_list %}
-    {% if todo.done %} 
-        <input type="checkbox" checked> 
-    {% else %} 
-        <input type="checkbox">
-    {% endif %}
-    <label>{{todo.text}}</label>
-    <br>
-{% endfor %}		
-```
-
-4. Open the file called `views.py` and copy over the following code:
+- Open the file called `views.py` and copy over the following code:
 
 ```python
 from django.shortcuts import render
@@ -36,7 +24,7 @@ def index(request):
     return render(request, 'MyApp/index.html', context)
 ```
 
-5. Create a new file inside `MyApp` called `urls.py` containing the following code:
+- Create a new file inside `MyApp` called `urls.py` containing the following code:
 
 ```python
 from django.urls import path
@@ -48,7 +36,7 @@ urlpatterns = [
 ]
 ```
 
-6. Open the file called `urls.py` inside the `projects` directory and edit the code to look like:
+- Open the file called `urls.py` inside the `projects` directory and edit the code to look like:
 
 ```python
 from django.contrib import admin
@@ -60,6 +48,6 @@ urlpatterns = [
 ]
 ```
 
-7. Open [http://127.0.0.1:8000](http://127.0.0.1:8000/) in a browser to see your rendered webpage!
+- Open [http://127.0.0.1:8000](http://127.0.0.1:8000/) in a browser to see your rendered webpage!
 
 ![Screenshot 2023-04-23 at 8.23.47 PM.png](png/day2/Screenshot_2023-04-23_at_8.23.47_PM.png)
