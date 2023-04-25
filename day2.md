@@ -44,4 +44,4 @@ urlpatterns = [
 
 Open [http://127.0.0.1:8000](http://127.0.0.1:8000/) in a browser to see your rendered webpage!
 
-![Screenshot 2023-04-23 at 8.23.47 PM.png](Day%202%20-%20Render%20a%20Webpage%20871525e10b624a368880e5258277f25c/Screenshot_2023-04-23_at_8.23.47_PM.png)
+![Screenshot 2023-04-23 at 8.23.47 PM.png](png/day2/Screenshot_2023-04-23_at_8.23.47_PM.png)
