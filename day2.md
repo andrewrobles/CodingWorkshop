@@ -1,16 +1,10 @@
 # Day 2 - Render a Webpage
 
-**What does rendering a webpage mean?**
+Create a new directory inside the `MyApp` directory called `templates`. Inside of `templates`, create a new directory called `MyApp`. Inside of this new `MyApp` directory, create a file called `index.html` containing the following code:
 
-Rendering a webpage is the process of turning code into an interactive page that website visitors expect to see when clicking on a link.
+![Screenshot 2023-04-24 at 7.58.02 PM.png](png/day2/Screenshot_2023-04-24_at_7.58.02_PM.png)
 
-- Create a new directory inside the `MyApp` directory called `templates` 
-- Inside of `templates`, create a new directory called `MyApp`
-- Inside of this new `MyApp` directory, create a file called `index.html` containing the following code:
-
-![Screenshot 2023-04-23 at 8.46.13 PM](png/day2/Screenshot_2023-04-23_at_8.46.13_PM.png)
-
-- Open the file called `views.py` and copy over the following code:
+Open the file called `views.py` and copy over the following code:
 
 ```python
 from django.shortcuts import render
@@ -24,7 +18,7 @@ def index(request):
     return render(request, 'MyApp/index.html', context)
 ```
 
-- Create a new file inside `MyApp` called `urls.py` containing the following code:
+Create a new file inside `MyApp` called `urls.py` containing the following code:
 
 ```python
 from django.urls import path
@@ -36,7 +30,7 @@ urlpatterns = [
 ]
 ```
 
-- Open the file called `urls.py` inside the `projects` directory and edit the code to look like:
+Open the file called `urls.py` inside the `projects` directory and edit the code to look like:
 
 ```python
 from django.contrib import admin
@@ -48,6 +42,6 @@ urlpatterns = [
 ]
 ```
 
-- Open [http://127.0.0.1:8000](http://127.0.0.1:8000/) in a browser to see your rendered webpage!
+Open [http://127.0.0.1:8000](http://127.0.0.1:8000/) in a browser to see your rendered webpage!
 
-![Screenshot 2023-04-23 at 8.23.47 PM.png](png/day2/Screenshot_2023-04-23_at_8.23.47_PM.png)
+![Screenshot 2023-04-23 at 8.23.47 PM.png](Day%202%20-%20Render%20a%20Webpage%20871525e10b624a368880e5258277f25c/Screenshot_2023-04-23_at_8.23.47_PM.png)
