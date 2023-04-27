@@ -1,4 +1,4 @@
-# Codeshop
+# codeshop
 
 Learn to code by doing.
 
