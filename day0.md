@@ -1,5 +1,7 @@
 # Day 0 - Login to App
 
+[![https://youtu.be/lcuwEj7SXvo](png/day1/day1.png)](https://youtu.be/lcuwEj7SXvo)
+
 **Download the following software**
 
 - Git - [git-scm.com/downloads](https://git-scm.com/downloads)
