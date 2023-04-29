@@ -3,5 +3,6 @@
 "Learn by doing"
 
 #### Table of Contents
-[Day 1 - Create a Database](day1.md)<br>
+[Day 0 - Login to App](day0.md)<br>
+[Day 1 - Make a Database](day1.md)<br>
 [Day 2 - Render a Webpage](day2.md)
