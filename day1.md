@@ -1,7 +1,5 @@
 # Day 1 - Make a Database
 
-[![https://youtu.be/lcuwEj7SXvo](png/day1/day1.png)](https://youtu.be/lcuwEj7SXvo)
-
 - Open the `MyApp` project in Visual Studio Code
 - Enable auto save by going to `File > Auto Save`
 - Copy the following code to `models.py`
@@ -32,30 +30,32 @@ from .models import ToDoItem
 admin.site.register(ToDoItem)
 ```
 
-Use the app to create some todo items then observe the result
+Use the admin website to create some todo items then observe the result
 
-![https://github.com/andrewrobles/CodingWorkshop/raw/main/png/day1/3a.png](https://github.com/andrewrobles/CodingWorkshop/raw/main/png/day1/3a.png)
+![Screenshot 2023-04-29 at 12.03.39 PM.png](png/day1/Screenshot_2023-04-29_at_12.03.39_PM.png)
 
-Convert the todo item text to something more readable by adding a `__str__` function to `models.py`
+What a minute.  `ToDoItem object (1)` isn’t a helpful representation of this object. Let’s fix that by editing the  `ToDoItem` model and adding a `__str__` function to `models.py`
 
 ```python
 from django.db import models
 
-class TodoItem(models.Model):
-    # ...
+class ToDoItem(models.Model):
+    text = models.CharField(max_length=200)
+    done = models.BooleanField(default=False)
+
     def __str__(self):
         return self.text
 ```
 
 You should see something like the following
 
-![https://github.com/andrewrobles/CodingWorkshop/raw/main/png/day1/3b.png](https://github.com/andrewrobles/CodingWorkshop/raw/main/png/day1/3b.png)
+![Screenshot 2023-04-29 at 12.07.16 PM.png](png/day1/Screenshot_2023-04-29_at_12.07.16_PM.png)
 
-### Step 4 - Customize How Text is Displayed
+### Customize How Text is Displayed
 
 Using the app, edit the to-do item and click on the checkbox to mark it as done.
 
-![https://github.com/andrewrobles/CodingWorkshop/raw/main/png/day1/4a.png](https://github.com/andrewrobles/CodingWorkshop/raw/main/png/day1/4a.png)
+![Screenshot 2023-04-29 at 12.07.51 PM.png](png/day1/Screenshot_2023-04-29_at_12.07.51_PM.png)
 
 Now, we are going to write some code so that any items marked as done are crossed out. Let’s update the contents of `MyApp/models.py` to:
 
@@ -76,4 +76,12 @@ class TodoItem(models.Model):
 
 If you go back to your list of to-do items, you should see your item crossed out because it was marked as done.
 
-![https://github.com/andrewrobles/CodingWorkshop/raw/main/png/day1/4b.png](https://github.com/andrewrobles/CodingWorkshop/raw/main/png/day1/4b.png)
+![Screenshot 2023-04-29 at 12.15.48 PM.png](png/day1/Screenshot_2023-04-29_at_12.15.48_PM.png)
+
+### Practice Makes Perfect
+
+Before moving on to the next day in the series, we highly recommend repeating the previous steps over and over until memorized. If you choose to do this, make sure to reset your project each time by deleting the folder called `venv`  and file called `db.sqlite3`
+
+```
+rm -rf venv db.sqlite3
+```
