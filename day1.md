@@ -77,11 +77,3 @@ class TodoItem(models.Model):
 If you go back to your list of to-do items, you should see your item crossed out because it was marked as done.
 
 ![Screenshot 2023-04-29 at 12.15.48 PM.png](png/day1/Screenshot_2023-04-29_at_12.15.48_PM.png)
-
-### Practice Makes Perfect
-
-Before moving on to the next day in the series, we highly recommend repeating the previous steps over and over until memorized. If you choose to do this, make sure to reset your project each time by deleting the folder called `venv`  and file called `db.sqlite3`
-
-```
-rm -rf venv db.sqlite3
-```

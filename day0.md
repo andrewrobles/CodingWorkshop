@@ -60,11 +60,3 @@ Superuser created successfully.
 With the server running, open `http://localhost:8000/admin` and login using the username and password you entered in the previous step.
 
 ![Screenshot 2023-04-29 at 10.54.11 AM.png](png/day0/Screenshot_2023-04-29_at_10.54.11_AM.png)
-
-### Practice Makes Perfect
-
-Before moving on to the next day in the series, we highly recommend repeating the previous steps over and over until memorized. If you choose to do this, make sure to reset your project each time by deleting the folder called `venv`  and file called `db.sqlite3`
-
-```
-rm -rf venv db.sqlite3
-```
