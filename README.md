@@ -1,4 +1,4 @@
-# codeshop
+# homebrew
 
 #### Table of Contents
 [Day 0 - Login to App](day0.md)<br>
